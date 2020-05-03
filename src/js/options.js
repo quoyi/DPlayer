@@ -45,7 +45,14 @@ export default (options) => {
         options.lang = options.lang.toLowerCase();
     }
 
-    options.contextmenu = options.contextmenu.concat([]);
+    options.contextmenu = options.contextmenu.concat([
+        {
+            text: 'Video info',
+            click: (player) => {
+                player.infoPanel.triggle();
+            },
+        },
+    ]);
 
     return options;
 };

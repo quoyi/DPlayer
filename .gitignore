@@ -10,3 +10,4 @@ package-lock.json
 docs/.vuepress/dist
 
 .DS_Store
+dist

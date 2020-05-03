@@ -1,7 +1,7 @@
 {
-    "name": "dplayer",
-    "version": "1.25.1",
-    "description": "Wow, such a lovely HTML5 danmaku video player",
+    "name": "@quoyi/qqplayer",
+    "version": "0.0.1",
+    "description": "DPlayer 修改版",
     "main": "dist/DPlayer.min.js",
     "scripts": {
         "start": "npm run dev",
@@ -18,24 +18,24 @@
         "dist"
     ],
     "repository": {
-        "url": "git+https://github.com/DIYgod/DPlayer.git",
+        "url": "git+https://github.com/quoyi/DPlayer.git",
         "type": "git"
     },
     "keywords": [
-        "player",
-        "danmaku",
-        "video",
+        "播放器",
+        "弹幕",
+        "视频",
         "html5"
     ],
     "gitHooks": {
         "pre-commit": "npm run format:staged"
     },
-    "author": "DIYgod",
+    "author": "quoyi",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/DIYgod/DPlayer/issues"
+        "url": "https://github.com/quoyi/DPlayer/issues"
     },
-    "homepage": "https://github.com/DIYgod/DPlayer#readme",
+    "homepage": "https://github.com/quoyi/DPlayer#readme",
     "devDependencies": {
         "@babel/core": "^7.6.0",
         "@babel/preset-env": "^7.4.5",
