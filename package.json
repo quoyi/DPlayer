@@ -1,5 +1,5 @@
 {
-    "name": "@quoyi/qqplayer",
+    "name": "@quoyi/dplayer",
     "version": "0.0.1",
     "description": "DPlayer 修改版",
     "main": "dist/DPlayer.min.js",
